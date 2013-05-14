@@ -2,6 +2,8 @@
   "name": "nodejs-demo",
   "version": "0.0.1",
   "private": true,
+  "author": "Conan Zhang <bsspirit@gmail.com>",
+  "description": "http://blog.fens.me/nodejs-express3/",
   "scripts": {
     "start": "node app.js"
   },
