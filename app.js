@@ -6,6 +6,7 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
+  , movie = require('./routes/movie')
   , http = require('http')
   , path = require('path')
   , ejs = require('ejs')
@@ -50,6 +51,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+//basic
 app.get('/', routes.index);
 
 app.all('/login', notAuthentication);
@@ -62,6 +64,12 @@ app.get('/logout', routes.logout);
 app.get('/home', authentication);
 app.get('/home', routes.home);
 
+
+//mongo
+app.get('/movie/add',movie.movieAdd);
+app.post('/movie/add',movie.doMovieAdd);
+app.get('/movie/:name',movie.movieAdd);
+app.get('/movie/json/:name',movie.movieJSON);
 
 
 

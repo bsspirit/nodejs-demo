@@ -14,7 +14,13 @@ Nodejs给Javascript赋予了服务端应用的生命，Jquery让Javascript成为
 使用说明
 ----------------------
 
+Nodejs开发框架Express3.0开发手记–从零开始
+
 http://blog.fens.me/nodejs-express3/ 
+
+Mongoose使用案例：让JSON数据直接POST入MongoDB
+
+http://blog.fens.me/nodejs-mongoose-json/ 
 
 源代码下载
 ----------------------
