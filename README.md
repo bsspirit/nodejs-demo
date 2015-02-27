@@ -1,7 +1,8 @@
-nodejs-demo
+Express4.x Demo
 ==============================
 
-Nodejs给Javascript赋予了服务端应用的生命，Jquery让Javascript成为浏览中开发的利器。 最近学习了Nodejs的Express3.0的开发框架，本来是按照“node.js开发指南”书中介绍，但“node.js开发指南”讲的是Express2.x的，从Express2.x到Express3.0自己模索中还是走了不少弯路的。写篇文章总结一下。
+Nodejs是一个年轻的编程框架，充满了活力和无限激情，一直都在保持着快速更新。基于Nodejs的官方Web开发库Express也在同步发展着，每年升级一个大版本，甚至对框架底层都做了大手术。在Express4时，替换掉中件间库connect，而改用多个更细粒度的库来取代。
+带来的好处是明显地，这些中间件能更自由的更新和发布，不会受到Express发布周期的影响；但问题也是很的棘手，不兼容于之前的版本，升级就意味着要修改代码。
 
 关于作者
 ----------------------
@@ -14,16 +15,13 @@ Nodejs给Javascript赋予了服务端应用的生命，Jquery让Javascript成为
 使用说明
 ----------------------
 
-Nodejs开发框架Express3.0开发手记–从零开始
+Node.js开发框架Express4.x
 
-http://blog.fens.me/nodejs-express3/ 
-
-Mongoose使用案例：让JSON数据直接POST入MongoDB
-
-http://blog.fens.me/nodejs-mongoose-json/ 
+http://blog.fens.me/nodejs-express4/
 
 源代码下载
 ----------------------
 
 程序代码已经上传到github有需要的同学，自行下载。
-https://github.com/bsspirit/nodejs-demo
+
+https://github.com/bsspirit/nodejs-demo/tree/express4
