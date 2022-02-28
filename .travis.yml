@@ -1,4 +1,4 @@
 language: node_js
 node_js:
   - 7
-commit_message !~ /no-deploy
+commit_message: "NoCommit"
