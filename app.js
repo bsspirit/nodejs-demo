@@ -1,10 +1,6 @@
 
 /**
-This is comit with Skip 
- hjhjshdjsdhjsdhjsdhjsdh
- skdjksjdksjdksjds
- skdksjdksjdksjdksdj
- sdksdksjksdksdnksdnksd
+this is second commit in app.js 
 
  */
 
