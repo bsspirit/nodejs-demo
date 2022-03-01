@@ -1,2 +1,2 @@
 
-Hello World. I am here and doing specific case testing with second commit 
+Hello this is a first commit in readme file 
