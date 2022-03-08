@@ -1,5 +1,5 @@
 $(function() {
-//test test test 
+//holla hoop 
 	var mdata={};
 	var url = '/javascripts/movie.json';
 
