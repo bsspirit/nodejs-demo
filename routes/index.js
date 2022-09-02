@@ -1,6 +1,6 @@
 
 /*
- * GET home Hello world 
+ * GET home Hello worldjsdskdnskndf
  */
 
 exports.index = function(req, res){
